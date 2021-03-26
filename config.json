@@ -9,7 +9,7 @@
             "settings": {
                 "clients": [
                     {
-                        "id": "{uuid}",
+                        "id": "w779827d-1212-6p79-cc7e-8cda48b30733",
                         "flow": "xtls-rprx-direct"
                     }
                 ],
@@ -36,8 +36,8 @@
                     "cipherSuites": "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
                     "certificates": [
                         {
-                            "certificateFile": "/data/caddy/certificates/acme-v02.api.letsencrypt.org-directory/{host}/{host}.crt",
-                            "keyFile": "/data/caddy/certificates/acme-v02.api.letsencrypt.org-directory/{host}/{host}.key",
+                            "certificateFile": "/data/caddy/certificates/acme-v02.api.letsencrypt.org-directory/oc.buck.gq/oc.buck.gq.crt",
+                            "keyFile": "/data/caddy/certificates/acme-v02.api.letsencrypt.org-directory/oc.buck.gq/oc.buck.gq.key",
                             "ocspStapling": 3600,
                             "oneTimeLoading": true
                         }
